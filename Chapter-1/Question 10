@@ -1,0 +1,10 @@
+fn main() {
+    let s1 = String::new(); 
+    println!("Empty String: '{}'", s1);
+
+    let s2 = "Hello, world!".to_string();
+    println!("String from literal: '{}'", s2);
+
+    let s3 = String::from("Rust is awesome!");
+    println!("String from String::from: '{}'", s3);
+}
